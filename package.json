@@ -1,0 +1,26 @@
+{
+    "publisher": "CorvusPrudens",
+    "name": "corvassembly",
+    "displayName": "Corvassembly",
+    "description": "Language support for Corvassembly",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cor",
+            "aliases": ["Corvassembly", "cor"],
+            "extensions": [".cor"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cor",
+            "scopeName": "source.cor",
+            "path": "./syntaxes/cor.tmLanguage.json"
+        }]
+    }
+}
