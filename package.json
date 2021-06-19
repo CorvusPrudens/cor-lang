@@ -1,5 +1,6 @@
 {
     "publisher": "CorvusPrudens",
+    "repository": "https://github.com/CorvusPrudens/cor-lang",
     "name": "corvassembly",
     "displayName": "Corvassembly",
     "description": "Language support for Corvassembly",
